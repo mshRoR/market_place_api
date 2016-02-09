@@ -20,7 +20,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 #Api gems
-gem 'active_model_serializers'
+gem 'active_model_serializers', github: 'rails-api/active_model_serializers', branch: '0-9-stable'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
